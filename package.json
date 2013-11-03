@@ -1,0 +1,18 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "mocha": "*",
+    "should": ">= 0.0.1"
+  },
+   "scripts": {
+        "start": "node_modules/.bin/supervisor app",
+        "test": "node_modules/.bin/mocha -w"
+    }
+}
